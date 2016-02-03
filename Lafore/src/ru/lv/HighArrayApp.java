@@ -1,4 +1,6 @@
-class HighArrayApp
+package ru.lv;
+
+public class HighArrayApp
 {
     public static void main(String[] args)
     {
