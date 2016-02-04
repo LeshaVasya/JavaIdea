@@ -1,3 +1,4 @@
+package ru.lv.Calculator;
 /**
 *	Calculator Class
 *   @author LeshaVasya
