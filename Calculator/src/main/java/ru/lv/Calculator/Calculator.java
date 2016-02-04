@@ -24,6 +24,10 @@ public class Calculator{
             this.result += param;
         }
     }
+
+    public void div(int ... params){
+
+    }
     /**
         Getting Result
         @return The final result
