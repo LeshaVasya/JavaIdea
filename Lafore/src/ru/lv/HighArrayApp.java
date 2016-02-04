@@ -1,9 +1,7 @@
 package ru.lv;
 
-public class HighArrayApp
-{
-    public static void main(String[] args)
-    {
+public class HighArrayApp {
+    public static void main(String[] args) {
         int maxSize = 100;            // array size
         HighArray arr;                // reference to array
         arr = new HighArray(maxSize); // create the array
