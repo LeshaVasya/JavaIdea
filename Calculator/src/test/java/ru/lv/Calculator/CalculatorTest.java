@@ -25,7 +25,7 @@ public class CalculatorTest {
     public void testAdd() throws Exception {
         Calculator testCalc = new Calculator();
         testCalc.add(1,2);
-        assertEquals(testCalc.getResult(),3);
+        assertEquals(3.0, testCalc.getResult(), 0.0001);
     }
 
     @Test
@@ -36,5 +36,30 @@ public class CalculatorTest {
     @Test
     public void testCleanResult() throws Exception {
 
+    }
+
+    @Test(expected = UserException.class)
+    public void testDivMoreParams() throws UserException {
+        Calculator testCalc = new Calculator();
+        testCalc.div(4,2,1);
+    }
+
+    @Test(expected = UserException.class)
+    public void testLeastParams() throws UserException {
+        Calculator testCalc = new Calculator();
+        testCalc.div(4);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testDivByZero() throws Exception {
+        Calculator testCalc = new Calculator();
+        testCalc.div(4,0);
+    }
+
+    @Test
+    public void testDiv() throws UserException {
+        Calculator testCalc = new Calculator();
+        testCalc.div(4,2);
+        assertEquals(2.0,testCalc.getResult(), 0.00001);
     }
 }

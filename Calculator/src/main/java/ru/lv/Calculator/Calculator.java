@@ -8,7 +8,7 @@ public class Calculator{
 	/**
 		The final result
 	*/
-	private int result;
+	private double result;
     /**
         Constructor
     */
@@ -25,14 +25,31 @@ public class Calculator{
         }
     }
 
-    public void div(int ... params){
-
+    /**
+     *
+     * @param params
+     * @throws UserException
+     */
+    public void div(int ... params) throws UserException {
+        if ((params.length > 1) || (params.length < 3)){
+            this.result = params[0];
+            for(Integer param: params){
+                if (param == 0) {
+                    throw new IllegalArgumentException("Your second argument iz zero");
+                } else {
+                    this.result /= param;
+                }
+            }
+        }
+        else {
+            throw new UserException("Please enter two arguments for division operation");
+        }
     }
     /**
         Getting Result
         @return The final result
     */
-    public int getResult(){
+    public double getResult(){
         return this.result;
     }
     /**
