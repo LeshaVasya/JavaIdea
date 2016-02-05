@@ -31,18 +31,16 @@ public class Calculator{
      * @throws UserException
      */
     public void div(int ... params) throws UserException {
-        if ((params.length > 1) || (params.length < 3)){
-            this.result = params[0];
-            for(Integer param: params){
-                if (param == 0) {
-                    throw new IllegalArgumentException("Your second argument iz zero");
-                } else {
-                    this.result /= param;
-                }
-            }
+        if ((params.length != 2)) {
+            throw new UserException("Please enter two arguments for division operation");
         }
         else {
-            throw new UserException("Please enter two arguments for division operation");
+            if (params[1] == 0) {
+                throw new IllegalArgumentException("Your second argument iz zero");
+            }
+            else {
+                this.result = params[0]/params[1];
+            }
         }
     }
     /**
