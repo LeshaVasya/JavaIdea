@@ -1,3 +1,5 @@
+package ru.leshavasya.PetClinic;
+
 /**
  * Created by Vasyamfx on 06.02.2016.
  */

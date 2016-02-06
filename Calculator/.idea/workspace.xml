@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ec73ca-d36e-4374-acb0-c475d9476c34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/lv/Calculator/Calculate.java" afterPath="$PROJECT_DIR$/src/main/java/ru/lv/Calculator/Calculate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.lv.Calculator.CalculatorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.lv.Calculator.CalculatorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ru.lv.Calculator.CalculatorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.lv.Calculator.CalculatorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PetClinic/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/PetClinic.iml" afterPath="$PROJECT_DIR$/../PetClinic/PetClinic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/pom.xml" afterPath="$PROJECT_DIR$/../PetClinic/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Animal.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Animal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Cat.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Cat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Client.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Clinic.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Clinic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/ClinicRunner.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/ClinicRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Dog.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Dog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Pet.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Pet.java" />
     </list>
     <ignored path="Calculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -910,7 +907,7 @@
       <option name="number" value="Default" />
       <updated>1454594792467</updated>
       <workItem from="1454594793695" duration="11509000" />
-      <workItem from="1454776007846" duration="216000" />
+      <workItem from="1454776007846" duration="885000" />
     </task>
     <servers />
   </component>
@@ -947,7 +944,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11725000" />
+    <option name="totallyTimeSpent" value="12394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1843" height="1092" extended-state="0" />
@@ -957,12 +954,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1817162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1817162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15872125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15872125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

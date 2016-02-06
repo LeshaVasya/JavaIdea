@@ -1,3 +1,5 @@
+package ru.leshavasya.PetClinic;
+
 import java.util.UUID;
 
 /**

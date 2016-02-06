@@ -16,7 +16,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>PetClinic.ClinicRunner</mainClass>
+                            <mainClass>ru.leshavasya.PetClinic.ClinicRunner</mainClass>
                             <addClasspath>true</addClasspath>
                         </manifest>
                     </archive>
