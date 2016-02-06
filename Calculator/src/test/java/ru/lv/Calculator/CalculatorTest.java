@@ -11,16 +11,6 @@ import static org.junit.Assert.*;
  */
 public class CalculatorTest {
 
-    @Before
-    public void setUp() throws Exception {
-
-    }
-
-    @Test
-    public void testCalculator() throws Exception {
-
-    }
-
     @Test
     public void testAdd() throws Exception {
         Calculator testCalc = new Calculator();
