@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ec73ca-d36e-4374-acb0-c475d9476c34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/pom.xml" afterPath="$PROJECT_DIR$/../PetClinic/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Animal.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Animal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Cat.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Cat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Client.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Clinic.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Clinic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/ClinicRunner.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/ClinicRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Dog.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Dog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/Pet.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Pet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Clinic.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Clinic.java" />
     </list>
     <ignored path="Calculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -907,7 +897,7 @@
       <option name="number" value="Default" />
       <updated>1454594792467</updated>
       <workItem from="1454594793695" duration="11509000" />
-      <workItem from="1454776007846" duration="885000" />
+      <workItem from="1454776007846" duration="1317000" />
     </task>
     <servers />
   </component>
@@ -944,7 +934,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12394000" />
+    <option name="totallyTimeSpent" value="12826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1843" height="1092" extended-state="0" />

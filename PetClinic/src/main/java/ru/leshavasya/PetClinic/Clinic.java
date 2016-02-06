@@ -9,8 +9,10 @@ public class Clinic {
     }
 
     /**
+     * TODO Map, HashMap, ArrayList, LinkedList??
      * Clients array
      */
+    //TODO Map, HashMap, ArrayList, LinkedList??
     private final Client[] clients;
 
     /**
