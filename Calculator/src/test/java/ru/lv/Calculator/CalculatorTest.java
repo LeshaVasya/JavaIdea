@@ -25,17 +25,22 @@ public class CalculatorTest {
     public void testAdd() throws Exception {
         Calculator testCalc = new Calculator();
         testCalc.add(1,2);
-        assertEquals(3.0, testCalc.getResult(), 0.0001);
+        assertEquals(3.0, testCalc.getResult(), 0.00001);
     }
 
     @Test
-    public void testGetResult() throws Exception {
-
+    public void testGetResult(){
+        Calculator testCalc = new Calculator();
+        assertEquals(0, testCalc.getResult(), 0.00001);
     }
 
     @Test
-    public void testCleanResult() throws Exception {
-
+    public void testCleanResult(){
+        Calculator testCalc = new Calculator();
+        testCalc.add(1,2);
+        assertEquals(3.0, testCalc.getResult(), 0.00001);
+        testCalc.cleanResult();
+        assertEquals(0, testCalc.getResult(), 0.00001);
     }
 
     @Test(expected = UserException.class)
@@ -45,7 +50,7 @@ public class CalculatorTest {
     }
 
     @Test(expected = UserException.class)
-    public void testLeastParams() throws UserException {
+    public void testDivLeastParams() throws UserException {
         Calculator testCalc = new Calculator();
         testCalc.div(4);
     }

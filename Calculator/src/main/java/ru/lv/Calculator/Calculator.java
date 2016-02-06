@@ -36,7 +36,7 @@ public class Calculator{
         }
         else {
             if (params[1] == 0) {
-                throw new IllegalArgumentException("Your second argument iz zero");
+                throw new IllegalArgumentException("Your second argument is zero");
             }
             else {
                 this.result = params[0]/params[1];
