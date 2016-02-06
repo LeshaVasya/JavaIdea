@@ -1,3 +1,5 @@
+package ru.lv.Calculator;
+
 public class Calculate {
 
     public static void main(String[] args) {
