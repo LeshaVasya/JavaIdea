@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ec73ca-d36e-4374-acb0-c475d9476c34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/Generic/UserRunner.java" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/Generic/UserRunner.java" />
     </list>
     <ignored path="Calculator.iws" />
