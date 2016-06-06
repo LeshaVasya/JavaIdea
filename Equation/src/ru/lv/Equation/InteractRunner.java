@@ -6,20 +6,21 @@ import java.util.Scanner;
 public class InteractRunner {
 
     public static void main(String[] args) {
-        Double a = getValueFromConsole("X2 Coef");
-        Double b = getValueFromConsole("X Coef");
-        Double c = getValueFromConsole("Coef");
+        System.out.println("The app solves quadratic equation like: a*x^2 + b*x  + c = 0");
+        Double a = getValueFromConsole("x^2 coef = a");
+        Double b = getValueFromConsole("x coef = b");
+        Double c = getValueFromConsole("coef = c");
         Calculator equation = new Calculator(a,b,c);
         equation.calculate();
     }
 
-    public static double getValueFromConsole(String input) {
+    private static double getValueFromConsole(String input) {
         Scanner reader = new Scanner(System.in);
-        Double variable = null;
+        Double value = null;
         do {
             System.out.println(String.format("Please enter the '%s' value:", input));
             try {
-                variable = reader.nextDouble();
+                value = reader.nextDouble();
             }
             catch (InputMismatchException ime) {
                 System.out.println(String.format("​Incorrect '%s' value. Possibly not double. Please try again:", input));
@@ -31,11 +32,11 @@ public class InteractRunner {
                 System.out.print(nfe.getMessage());
                 reader.next();
             }
-            finally{
-                reader.close();
-            }
+          //  finally {
+         //       reader.close();
+         //   }
         }
-        while (variable == null);
-        return variable;
+        while (value == null);
+        return value;
     }
 }

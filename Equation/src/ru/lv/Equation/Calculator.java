@@ -27,7 +27,7 @@ public class Calculator {
         return (-b + Math.sqrt(discriminant))/2*a;
     }
 
-    private Double getConsEquationRoot(){
+    private Double getConsEquationRoot() {
         return (-b - Math.sqrt(discriminant))/2*a;
     }
 
@@ -40,7 +40,7 @@ public class Calculator {
                 break;
             case 0:
                 double root = -b/2*a;
-                System.out.println("The equation has only one root: "+root);
+                System.out.println("The equation has only one root = "+root);
                 break;
             case -1:
                 System.out.println("The equation couldn't be solved because discriminant is less than zero: "+discriminant);
