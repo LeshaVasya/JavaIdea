@@ -2,113 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d86f0c-d2db-4017-b606-f18375e4f1f9" name="Default" comment="app is done&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../out/production/Java_Projects/com/company/Calculate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/Calculator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/Calculator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/deprecated-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/index-all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/javadoc/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/src/main/java/ru/lv/Calculator/Calculate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/src/main/java/ru/lv/Calculator/Calculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/src/main/java/ru/lv/Calculator/InteractRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/src/main/java/ru/lv/Calculator/UserException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/src/test/java/ru/lv/Calculator/CalculatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/surefire-reports/TEST-ru.lv.Calculator.CalculatorTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/target/surefire-reports/ru.lv.Calculator.CalculatorTest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Equation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloWorld/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java_Projects.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/HighArrayApp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/src/ru/lv/HighArrayApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lafore/src/ru/lv/highArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/PetClinic.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/Generic/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/Generic/UserRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Clinic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/ClinicRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PetClinic/src/main/java/ru/leshavasya/PetClinic/Pet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../src/com/company/Calculate.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/leshavasya/Input.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/leshavasya/InteractRunner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/leshavasya/Сalculation.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Equation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,7 +31,7 @@
       <file leaf-file-name="InteractRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="435">
               <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -203,9 +100,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -233,7 +130,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,6 +168,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -729,6 +626,7 @@
       <updated>1464379162225</updated>
       <workItem from="1464379163641" duration="10703000" />
       <workItem from="1465183910617" duration="4674000" />
+      <workItem from="1465189312458" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="New application template created">
       <created>1464380111490</created>
@@ -776,37 +674,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15377000" />
+    <option name="totallyTimeSpent" value="15425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.49143174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5085683" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49806523" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.49143174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49806523" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -841,35 +739,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/leshavasya/Calculation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,17 +755,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Input.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Input.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/leshavasya/Calculation.java" />
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Input.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="435">
           <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
           <folding>
             <element signature="imports" expanded="true" />
