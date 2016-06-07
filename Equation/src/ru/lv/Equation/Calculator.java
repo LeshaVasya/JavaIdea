@@ -9,7 +9,7 @@ public class Calculator {
     private final double a;
     private final double b;
     private final double c;
-    private final double zero = 0.0;
+    private final double EPSILON = 0.000001;
     private final double discriminant;
 
     public Calculator(double a, double b, double c) {
@@ -32,22 +32,20 @@ public class Calculator {
     }
 
     public void calculate(){
-        switch (Double.compare(discriminant, zero)){
-            case 1:
+        if (discriminant > EPSILON) {
                 System.out.println("The equation has two roots:");
-                System.out.println("root1 = "+getProsEquationRoot());
-                System.out.println("root2 = "+getConsEquationRoot());
-                break;
-            case 0:
-                double root = -b/2*a;
-                System.out.println("The equation has only one root = "+root);
-                break;
-            case -1:
-                System.out.println("The equation couldn't be solved because discriminant is less than zero: "+discriminant);
-                System.out.println("a = "+a);
-                System.out.println("b = "+b);
-                System.out.println("c = "+c);
-                break;
+                System.out.println("root1 = " + getProsEquationRoot());
+                System.out.println("root2 = " + getConsEquationRoot());
+        }
+        else if(discriminant <= EPSILON) {
+            double root = -b / 2 * a;
+            System.out.println("The equation has only one root = " + root);
+        }
+        else {
+            System.out.println("The equation couldn't be solved because discriminant is less than zero: " + discriminant);
+            System.out.println("a = " + a);
+            System.out.println("b = " + b);
+            System.out.println("c = " + c);
         }
     }
 }

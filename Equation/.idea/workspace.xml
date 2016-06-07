@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d86f0c-d2db-4017-b606-f18375e4f1f9" name="Default" comment="bug fix&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Calculator/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Calculator/Calculator.iml" afterPath="$PROJECT_DIR$/../Calculator/Calculator.iml" />
+    <list default="true" id="e5d86f0c-d2db-4017-b606-f18375e4f1f9" name="Default" comment="Change Double.Compare to EPSILON=0.000001&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java" afterPath="$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java" afterPath="$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java" />
     </list>
     <ignored path="Equation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +29,8 @@
       <file leaf-file-name="InteractRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,16 +41,9 @@
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="520">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,8 +80,8 @@
         <option value="$PROJECT_DIR$/src/ru/leshavasya/Сalculation.java" />
         <option value="$PROJECT_DIR$/src/ru/leshavasya/Input.java" />
         <option value="$PROJECT_DIR$/src/ru/leshavasya/InteractRunner.java" />
-        <option value="$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java" />
         <option value="$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java" />
+        <option value="$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java" />
       </list>
     </option>
   </component>
@@ -111,9 +99,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -140,7 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,8 +167,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,6 +627,7 @@
       <workItem from="1464379163641" duration="10703000" />
       <workItem from="1465183910617" duration="4674000" />
       <workItem from="1465189312458" duration="3221000" />
+      <workItem from="1465322767946" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="New application template created">
       <created>1464380111490</created>
@@ -686,21 +675,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18598000" />
+    <option name="totallyTimeSpent" value="18941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.48479822" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.4803759" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.51520175" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5196241" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.48922056" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.4870094" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -739,7 +728,8 @@
     <MESSAGE value="Input is done&#10;" />
     <MESSAGE value="app is done&#10;" />
     <MESSAGE value="bug fix&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix&#10;" />
+    <MESSAGE value="Change Double.Compare to EPSILON=0.000001&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Double.Compare to EPSILON=0.000001&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,15 +755,26 @@
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -792,14 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,23 +801,16 @@
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Input.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="520">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/lv/Equation/InteractRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
