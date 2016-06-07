@@ -1,13 +1,11 @@
 package ru.leshavasya;
 
-import java.math.BigDecimal;
-
 public class Main {
 
     public static void main(String[] args) {
-        BigDecimal a =  (new BigDecimal(2.1)).divide(new BigDecimal(10));
-        BigDecimal b = new BigDecimal(0.21);
-        switch (a.compareTo(b)){
+        Double a = 2.1/10;
+        Double b = 0.21;
+        switch (Double.compare(a,b)){
             case 1:
                 System.out.print(String.format("%s > %s", a, b));
                 break;
@@ -18,5 +16,6 @@ public class Main {
                 System.out.print(String.format("%s < %s", a, b));
                 break;
         }
+	// write your code here
     }
 }
