@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 /**
  * @author avasiliev
- *         Created: 2016-06-14.
+ * @since  2016-06-14.
  */
 public class CalculatorTest {
 
