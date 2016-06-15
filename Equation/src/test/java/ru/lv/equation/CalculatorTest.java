@@ -1,4 +1,4 @@
-package ru.lv.Equation;
+package ru.lv.equation;
 
 import org.junit.Test;
 
