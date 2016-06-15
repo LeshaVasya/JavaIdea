@@ -18,7 +18,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>ru.lv.Equation.InteractRunner</mainClass>
+              <mainClass>com.j2core.avasiliev.week2.equation.InteractRunner</mainClass>
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>

@@ -1,4 +1,4 @@
-package ru.lv.Equation;
+package com.j2core.avasiliev.week2.equation;
 
 /**
  * @author avasiliev
@@ -20,9 +20,11 @@ public class InteractRunner {
      */
     public static void main(final String[] args) {
         System.out.println("The app solves quadratic equation like: a*x^2 + b*x  + c = 0");
-        double a = getValueFromConsole("x^2 coef = a");
-        double b = getValueFromConsole("x coef = b");
-        double c = getValueFromConsole("coef = c");
+        Scanner reader = new Scanner(System.in);
+        double a = getValueFromConsole("x^2 coef = a", reader);
+        double b = getValueFromConsole("x coef = b", reader);
+        double c = getValueFromConsole("coef = c", reader);
+        reader.close();
         Calculator equation = new Calculator(a, b, c);
         equation.calculate();
     }
@@ -30,10 +32,10 @@ public class InteractRunner {
     /**
      *
      * @param input symbols from console till enter pushed
+     * @param reader System.in Scanner to let him be closed after all method calls
      * @return parsed double number
      */
-    private static double getValueFromConsole(final String input) {
-        Scanner reader = new Scanner(System.in);
+    private static double getValueFromConsole(final String input, final Scanner reader) {
         //Double used instead of double used here because of null
         Double value = null;
         do {
@@ -51,7 +53,6 @@ public class InteractRunner {
             }
         }
         while (value == null);
-        reader.close();
         return value;
     }
 }
