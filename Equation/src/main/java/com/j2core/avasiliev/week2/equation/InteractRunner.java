@@ -6,6 +6,7 @@ package com.j2core.avasiliev.week2.equation;
  */
 
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -19,14 +20,16 @@ public class InteractRunner {
      * @param args No arguments waiting
      */
     public static void main(final String[] args) {
-        System.out.println("The app solves quadratic equation like: a*x^2 + b*x  + c = 0");
+        System.out.println("The app solves quadratic Equation like: a*x^2 + b*x  + c = 0");
         Scanner reader = new Scanner(System.in);
-        double a = getValueFromConsole("x^2 coef = a", reader);
-        double b = getValueFromConsole("x coef = b", reader);
-        double c = getValueFromConsole("coef = c", reader);
+        double a = readValueFromConsole("x^2 coef = a", reader);
+        double b = readValueFromConsole("x coef = b", reader);
+        double c = readValueFromConsole("coef = c", reader);
         reader.close();
-        Calculator equation = new Calculator(a, b, c);
-        equation.calculate();
+        Calculator quadraticEquation = new Calculator(a, b, c);
+        ArrayList result = quadraticEquation.calculateResult();
+        double discriminant = quadraticEquation.getDiscriminant();
+        printResult(result, discriminant, a, b, c);
     }
 
     /**
@@ -35,7 +38,7 @@ public class InteractRunner {
      * @param reader System.in Scanner to let him be closed after all method calls
      * @return parsed double number
      */
-    private static double getValueFromConsole(final String input, final Scanner reader) {
+    private static double readValueFromConsole(final String input, final Scanner reader) {
         //Double used instead of double used here because of null
         Double value = null;
         do {
@@ -54,5 +57,33 @@ public class InteractRunner {
         }
         while (value == null);
         return value;
+    }
+
+    /**
+     * @param result Result to print
+     * @param discriminant to print
+     * @param a - x2 coef to print
+     * @param b - x1 coef to print
+     * @param c - x0 coef to print
+     */
+    private static void printResult(ArrayList result, final double discriminant, final double a, final double b, final double c) {
+        switch (result.size()) {
+            case 0:
+                System.out.println("The equation couldn't be solved because discriminant is less than zero: " + discriminant);
+                System.out.println("a = " + a);
+                System.out.println("b = " + b);
+                System.out.println("c = " + c);
+                break;
+            case 1:
+                System.out.println("Discriminant is close to zero: " + discriminant);
+                System.out.println("The equation has only one root");
+                break;
+            case 2:
+                System.out.println("The equation has two roots");
+                break;
+        }
+        for (int i = 0; i < result.size(); i++) {
+            System.out.printf("root%d = %.6f\n", i + 1, result.get(i));
+        }
     }
 }

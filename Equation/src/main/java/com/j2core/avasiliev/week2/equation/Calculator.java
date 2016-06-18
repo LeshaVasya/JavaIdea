@@ -1,5 +1,7 @@
 package com.j2core.avasiliev.week2.equation;
 
+import java.util.ArrayList;
+
 /**
  * @author avasiliev
  * @since  2016-05-27.
@@ -9,55 +11,46 @@ public class Calculator {
     private final double a;
     private final double b;
     private final double c;
-    private static final double EPSILON = 0.000001D;
+    public  static final double EPSILON = 0.000001D;
     private final double discriminant;
 
     public Calculator(final double a, final double b, final double c) {
         this.a = a;
         this.b = b;
         this.c = c;
-        this.discriminant = getDiscriminant();
-    }
-
-    public final double getEpsilon() {
-        return this.EPSILON;
+        this.discriminant = calculateDiscriminant();
     }
 
     public final double getDiscriminant() {
+        return discriminant;
+    }
+
+    private double calculateDiscriminant() {
         return  b * b - 4 * a * c;
     }
 
-    private double getProsEquationRoot() {
+    private double calculateProsEquationRoot() {
         return (-b + Math.sqrt(discriminant)) / 2 * a;
     }
 
-    private double getConsEquationRoot() {
+    private double calculateConsEquationRoot() {
         return (-b - Math.sqrt(discriminant)) / 2 * a;
     }
 
 
     /**
      *
-     * @return We return integer value to cover this method by unit tests
+     * @return We return arraylist of roots
      */
-    public final int calculate() {
+    public final ArrayList calculateResult() {
+        ArrayList result = new ArrayList();
         if (discriminant > EPSILON) {
-            System.out.println("Discriminant is greater than zero: " + discriminant);
-            System.out.println("The equation has two roots:");
-            System.out.println("root1 = " + getProsEquationRoot());
-            System.out.println("root2 = " + getConsEquationRoot());
-            return  2;
-        } else if (discriminant < -EPSILON) {
-            System.out.println("The equation couldn't be solved because discriminant is less than zero: " + discriminant);
-            System.out.println("a = " + a);
-            System.out.println("b = " + b);
-            System.out.println("c = " + c);
-            return 0;
-        } else {
+            result.add(calculateConsEquationRoot());
+            result.add(calculateProsEquationRoot());
+        } else if ((discriminant > -EPSILON) && (discriminant < EPSILON)) {
             double root = -b / 2 * a;
-            System.out.println("Discriminant is close to zero: " + discriminant);
-            System.out.println("The equation has only one root = " + root);
-            return 1;
+            result.add(root);
         }
+        return result;
     }
 }
