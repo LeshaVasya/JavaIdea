@@ -85,4 +85,41 @@ public class CalculatorTest {
         Calculator testCalc = new Calculator(1, 16, 4);
         assertEquals(2, (testCalc.calculateResult()).size());
     }
+
+    @Test
+    public final void testZeroA() {
+        Calculator testCalc = new Calculator(0, 1, -1);
+        assertEquals(1, (testCalc.calculateResult()).size());
+    }
+
+    @Test
+    public final void testOneZeroRoot() {
+        Calculator testCalc = new Calculator(0, 1, 0);
+        assertEquals(1, (testCalc.calculateResult()).size());
+    }
+
+    @Test
+    public final void testZeroAB() {
+        Calculator testCalc = new Calculator(0, 0, 1);
+        assertEquals(0, (testCalc.calculateResult()).size());
+    }
+
+    @Test
+    public final void testZeroABC() {
+        Calculator testCalc = new Calculator(0, 0, 0);
+        assertEquals(0, (testCalc.calculateResult()).size());
+    }
+
+    @Test
+    public final void testZeroBC() {
+        Calculator testCalc = new Calculator(1, 0, 0);
+        assertEquals(1, (testCalc.calculateResult()).size());
+    }
+
+    @Test
+    public final void testZeroAC() {
+        Calculator testCalc = new Calculator(0, 1, 0);
+        assertEquals(1, (testCalc.calculateResult()).size());
+    }
+
 }

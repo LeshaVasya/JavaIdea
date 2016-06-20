@@ -69,7 +69,7 @@ public class InteractRunner {
     private static void printResult(ArrayList result, final double discriminant, final double a, final double b, final double c) {
         switch (result.size()) {
             case 0:
-                System.out.println("The equation couldn't be solved because discriminant is less than zero: " + discriminant);
+                System.out.printf("The equation couldn't be solved because discriminant=%.6f is less than zero or a = 0 and b = 0", discriminant );
                 System.out.println("a = " + a);
                 System.out.println("b = " + b);
                 System.out.println("c = " + c);

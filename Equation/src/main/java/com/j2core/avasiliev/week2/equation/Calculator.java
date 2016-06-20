@@ -44,6 +44,12 @@ public class Calculator {
      */
     public final ArrayList calculateResult() {
         ArrayList result = new ArrayList();
+        if (a == 0.0){
+            if (b != 0.0){
+                result.add(-c / b);
+            }
+            return result;
+        }
         if (discriminant > EPSILON) {
             result.add(calculateConsEquationRoot());
             result.add(calculateProsEquationRoot());
