@@ -44,8 +44,8 @@ public class Calculator {
      */
     public final ArrayList calculateResult() {
         ArrayList result = new ArrayList();
-        if (a == 0.0){
-            if (b != 0.0){
+        if ((a > -EPSILON) && (a < EPSILON)){
+            if ((b < -EPSILON) || (b > EPSILON)){
                 result.add(-c / b);
             }
             return result;

@@ -122,4 +122,10 @@ public class CalculatorTest {
         assertEquals(1, (testCalc.calculateResult()).size());
     }
 
+    @Test
+    public final void testEpsilonCoef() {
+        Calculator testCalc = new Calculator(TESTEPSILON, TESTEPSILON, -TESTEPSILON);
+        assertEquals(1, (testCalc.calculateResult()).size());
+    }
+
 }

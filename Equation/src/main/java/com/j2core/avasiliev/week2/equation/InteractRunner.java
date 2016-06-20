@@ -20,7 +20,7 @@ public class InteractRunner {
      * @param args No arguments waiting
      */
     public static void main(final String[] args) {
-        System.out.println("The app solves quadratic Equation like: a*x^2 + b*x  + c = 0");
+        System.out.println("The app solves quadratic Equation like: a*x^2 + b*x  + c = 0 with accurancy to " + Calculator.EPSILON);
         Scanner reader = new Scanner(System.in);
         double a = readValueFromConsole("x^2 coef = a", reader);
         double b = readValueFromConsole("x coef = b", reader);
@@ -69,13 +69,12 @@ public class InteractRunner {
     private static void printResult(ArrayList result, final double discriminant, final double a, final double b, final double c) {
         switch (result.size()) {
             case 0:
-                System.out.printf("The equation couldn't be solved because discriminant=%.6f is less than zero or a = 0 and b = 0", discriminant );
+                System.out.printf("The equation couldn't be solved because discriminant=%.6f is less than zero or a = b = 0\n", discriminant );
                 System.out.println("a = " + a);
                 System.out.println("b = " + b);
                 System.out.println("c = " + c);
                 break;
             case 1:
-                System.out.println("Discriminant is close to zero: " + discriminant);
                 System.out.println("The equation has only one root");
                 break;
             case 2:
