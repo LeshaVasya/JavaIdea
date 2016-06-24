@@ -7,33 +7,22 @@ import java.util.ArrayList;
  * @since  2016-05-27.
  */
 
-public class Calculator {
-    private final double a;
-    private final double b;
-    private final double c;
-    public  static final double EPSILON = 0.000001D;
-    private final double discriminant;
+public final class Calculator {
 
-    public Calculator(final double a, final double b, final double c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        this.discriminant = calculateDiscriminant();
+    private Calculator() {
     }
 
-    public final double getDiscriminant() {
-        return discriminant;
-    }
-
-    private double calculateDiscriminant() {
+    public static double calculateDiscriminant(final double a, final double b, final double c) {
         return  b * b - 4 * a * c;
     }
 
-    private double calculateProsEquationRoot() {
+    private static double calculateProsEquationRoot(final double a, final double b, final double c) {
+        double discriminant = calculateDiscriminant(a, b ,c);
         return (-b + Math.sqrt(discriminant)) / 2 * a;
     }
 
-    private double calculateConsEquationRoot() {
+    private static double calculateConsEquationRoot(final double a, final double b, final double c) {
+        double discriminant = calculateDiscriminant(a, b, c);
         return (-b - Math.sqrt(discriminant)) / 2 * a;
     }
 
@@ -41,19 +30,24 @@ public class Calculator {
     /**
      *
      * @return We return arraylist of roots
+     * @param a x2 coef
+     * @param b x coef
+     * @param c coef
+     * @param  epsilon Accuracy
      */
-    public final ArrayList calculateResult() {
+    public static final ArrayList calculateResult(final double a, final double b, final double c, final  double epsilon) {
+        double discriminant = calculateDiscriminant(a, b, c);
         ArrayList result = new ArrayList();
-        if ((a > -EPSILON) && (a < EPSILON)){
-            if ((b < -EPSILON) || (b > EPSILON)){
+        if ((a > -epsilon) && (a < epsilon)) {
+            if ((b < -epsilon) || (b > epsilon)) {
                 result.add(-c / b);
             }
             return result;
         }
-        if (discriminant > EPSILON) {
-            result.add(calculateConsEquationRoot());
-            result.add(calculateProsEquationRoot());
-        } else if ((discriminant > -EPSILON) && (discriminant < EPSILON)) {
+        if (discriminant > epsilon) {
+            result.add(calculateConsEquationRoot(a, b, c));
+            result.add(calculateProsEquationRoot(a, b, c));
+        } else if ((discriminant > -epsilon) && (discriminant < epsilon)) {
             double root = -b / 2 * a;
             result.add(root);
         }

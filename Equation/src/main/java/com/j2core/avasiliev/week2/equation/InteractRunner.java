@@ -16,19 +16,22 @@ import java.util.Scanner;
 public class InteractRunner {
 
     /**
-     *
+     * Accuracy
+     */
+    public static final double EPSILON = 0.000001D;
+
+    /**
      * @param args No arguments waiting
      */
     public static void main(final String[] args) {
-        System.out.println("The app solves quadratic Equation like: a*x^2 + b*x  + c = 0 with accurancy to " + Calculator.EPSILON);
+        System.out.println("The app solves quadratic Equation like: a*x^2 + b*x  + c = 0 with accurancy to " + EPSILON);
         Scanner reader = new Scanner(System.in);
         double a = readValueFromConsole("x^2 coef = a", reader);
         double b = readValueFromConsole("x coef = b", reader);
         double c = readValueFromConsole("coef = c", reader);
         reader.close();
-        Calculator quadraticEquation = new Calculator(a, b, c);
-        ArrayList result = quadraticEquation.calculateResult();
-        double discriminant = quadraticEquation.getDiscriminant();
+        ArrayList result = Calculator.calculateResult(a, b, c, EPSILON);
+        double discriminant = Calculator.calculateDiscriminant(a, b, c);
         printResult(result, discriminant, a, b, c);
     }
 
