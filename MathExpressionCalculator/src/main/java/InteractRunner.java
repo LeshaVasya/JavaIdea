@@ -15,7 +15,12 @@ public class InteractRunner {
 
     }
 
-    public static boolean checkParentesisPair(String expression) {
+    /**
+     * Checks if any left parentesis has right pair
+     * @param expression
+     * @return
+     */
+    private static boolean checkParentesisPair(String expression) {
         if (expression.isEmpty()) {
             return true;
         }
@@ -56,7 +61,7 @@ public class InteractRunner {
         }
     }
 
-    public static double applyMathOperation(char operation, double operand1, double operand2)
+    private static double applyMathOperation(char operation, double operand1, double operand2)
     {
         switch (operation) {
             case '+': {
@@ -85,12 +90,15 @@ public class InteractRunner {
     /**
     * Check if expression consists of only: digits, dots, spaces, parenthesis, math operands  +-/*
     */
-    public static boolean initialValidate(String expression, Pattern validCharacterset) {
+    private static boolean initialValidate(String expression, Pattern validCharacterset) {
         Matcher theMatcher = mathCharacterSet.matcher(expression);
         return theMatcher.matches();
     }
 
-    public static String cutSpaces(String expression){
+    /**
+    Cut any spaces
+     */
+    private static String cutSpaces(String expression){
         expression.trim();
         return expression.replaceAll("[\\s]+", "");
     }
