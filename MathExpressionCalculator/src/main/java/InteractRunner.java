@@ -9,31 +9,13 @@ import java.util.regex.Pattern;
  */
 public class InteractRunner {
     public static  final double EPSILON = 0.000001;
+    public static final Pattern mathCharacterSet = Pattern.compile("[-+*/()\\d\\s]+");
 
     public static void main(String args[]){
 
     }
 
-    private static Double makeMathOperation(String mathOperation, Double operand1, Double operand2) {
-        if (mathOperation.equals("*")) {
-            return operand1 * operand2;
-        }
-        else if (mathOperation.equals("/")) {
-            return operand1 / operand2;
-        }
-        else if (mathOperation.equals("+")) {
-            return operand1 + operand2;
-        }
-        else if (mathOperation.equals("-")) {
-            return operand1 - operand2;
-        }
-        else {
-            System.out.printf("Provided operation is not math: %s", mathOperation);
-            return null;
-        }
-    }
-
-    public static boolean checkRoundParentesisPair(String expression) {
+    public static boolean checkParentesisPair(String expression) {
         if (expression.isEmpty()) {
             return true;
         }
@@ -95,15 +77,21 @@ public class InteractRunner {
             }
             //TODO: Handle this exception
             default: {
-                throw new UnsupportedOperationException(String.format("Unsupported math operation %c", operation));
+                throw new UnsupportedOperationException(String.format("Unsupported math operation: %c", operation));
             }
         }
     }
 
+    /**
+    * Check if expression consists of only: digits, dots, spaces, parenthesis, math operands  +-/*
+    */
+    public static boolean initialValidate(String expression, Pattern validCharacterset) {
+        Matcher theMatcher = mathCharacterSet.matcher(expression);
+        return theMatcher.matches();
+    }
 
-    public static boolean validate(String expression) {
-        Pattern validCharacterSet = Pattern.compile("(?<=op)|(?=op)".replace("op", "[-+*/()]"));
-        Matcher matcher = validCharacterSet.matcher(expression);
-        return matcher.matches();
+    public static String cutSpaces(String expression){
+        expression.trim();
+        return expression.replaceAll("[\\s]+", "");
     }
 }

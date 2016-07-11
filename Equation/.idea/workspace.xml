@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50dfee1e-d784-483a-b033-420f07a49b05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MathExpressionCalculator/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MathExpressionCalculator/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MathExpressionCalculator/src/main/java/InteractRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MathExpressionCalculator/src/main/java/InteractRunner.java" afterPath="$PROJECT_DIR$/../MathExpressionCalculator/src/main/java/InteractRunner.java" />
     </list>
     <ignored path="Equation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -845,7 +843,7 @@
       <workItem from="1467834416116" duration="81000" />
       <workItem from="1468112852323" duration="661000" />
       <workItem from="1468207194279" duration="89000" />
-      <workItem from="1468208275478" duration="2684000" />
+      <workItem from="1468208275478" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="Unit test added. Maven project">
       <created>1465948761582</created>
@@ -932,7 +930,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36611000" />
+    <option name="totallyTimeSpent" value="37210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
