@@ -6,6 +6,5 @@ public class Calculate {
         System.out.println("Calculate...");
         int a = 2;
         int b = 3;
-        int c = Math.
     }
 }
