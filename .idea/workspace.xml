@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8df6c9b-93ff-49bc-b970-6c3aed59cf39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/._.DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathExpressionCalculator/MathExpressionCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QATasks/QATasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QATasks/src/Switcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Equation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Equation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/src/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Projects/com/company/Calculate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QATasks/src/CompareStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QATasks/src/CompareStringsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +86,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\avasiliev\WorkSrc\JavaIdea\PetClinic" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.CompareStringsTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
